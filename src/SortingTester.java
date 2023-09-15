@@ -3,7 +3,8 @@
 public class SortingTester {
 
     public static void main(String[] args) {
-        int[] numElements = {10, 100, 10000};
+
+        int[] numElements = {10, 100 ,1000};
 
         for(int index = 0; index < numElements.length; index++){
             int NUM_ELEMENTS = numElements[index];
@@ -44,6 +45,8 @@ public class SortingTester {
                 System.out.println("Passed Merge #" + (index + 1));
             }
 
+
+
         }
 
     }
@@ -66,35 +69,50 @@ public class SortingTester {
      * (one sorted & one not) have the same number of each number.
      */
     public static boolean sameNumbers(int[] arr1, int[] arr2){
-        int[] fTable1 = frequencyTable(arr1);
-        int[] fTable2 = frequencyTable(arr2);
+        //arr1 711 831 1 590 330 367 432 596 432 471
+        //arr2 1 330 367 432 432 471 590 596 711 831
+        int[] fTable1 = frequencyTable(arr1); // There is a 1 at spaces 710, 830, 0, 589, 329, 366, 595, 470, and a 2 at space 431, len 830
+        int[] fTable2 = frequencyTable(arr2); // There is a 1 at spaces 710, 830, 0, 589, 329, 366, 595, 470, and a 2 at space 431, len 830
 
-        if(fTable1.length != fTable2.length)
+        if(fTable1.length != fTable2.length) // same length so ignores
             return false;
 
         for(int i = 0; i < fTable1.length; i++){
-            if(fTable1[i] != fTable2[i])
+            if(fTable1[i] != fTable2[i]) // should be the same numbers in the same spaces, so should ignore
                 return false;
         }
-        return true;
+        return true; //returns true
     }
 
-    public static int[] frequencyTable(int[] arr){
+    public static int[] frequencyTable(int[] arr){ //ex: arr1 711 831 1 590 330 367 432 596 432 471
         //find min & max
-        int min = arr[0];
-        int max = arr[0];
+        int min = arr[0]; //711
+        int max = arr[0]; //711
 
         for(int num : arr){
             if(min > num)
                 min = num;
+            /*
+             * 711 !> 831
+             * 711 > 1
+             * 1 !> the rest
+             * min = 1
+             */
             if(max < num)
                 max = num;
+            /*
+             * 711 < 831
+             * 831 < the rest
+             * max = 831
+             */
         }
 
         //tally numbers in array
         int[] fTable = new int[max - min + 1];
+            // fTable is 831 - 1 + 1 long, or 831 spaces long
         for(int num : arr){
             fTable[num - min]++;
+            // There is a 1 at spaces 710, 830, 0, 589, 329, 366, 595, 470, and a 2 at space 431
         }
 
         return fTable;
@@ -104,10 +122,14 @@ public class SortingTester {
      * This function will return whether the given array
      * is in non-decreasing order.
      */
-    public static boolean inOrder(int[] arr){
+    public static boolean inOrder(int[] arr){ //arr2 1 330 367 432 432 471 590 596 711 831
         for(int i = 0; i < arr.length - 1; i++)
             if(arr[i] > arr[i + 1])
                 return false;
+        /*
+         * 1 !> 330, fails
+         * so how is bubble, selection, and insert passing
+         */
         return true;
     }
 
