@@ -20,12 +20,17 @@
 - Your handwritten code may be included as part of your GitHub submission or turned in in-person.
 ### Reflection Questions
 1. What group roles did you define for your team? 
+- Nicholas: I was a both the navigator and coder at times. 
 2. What differences are there between your handwritten code and your completed code?
+- Nicholas: a lot of the handwritten code had minor format/syntax problems that needed adding in-code, stuff like missing semicolons and parenthesis in if statements and for/while loops
 3. What aspects of "good code" does this project demonstrate?
+- Nicholas: The code tried to be as efficient as possible, in terms of runtime. It also tried to be readable with in-line comments
 4. What challenges did you face during this project?
+- Nicholas: Having to go through the code line-by-line and manually debug it was time-consuming, especially with recursive mergeSort 
 5. What is the difference between interative and recursive design?
+- Nicholas: Interative has all the code calling other methods, while recursive has the code calling itself
 6. Why do you think software engineers generate Javadoc references or equivalent for their projects? What is effective about Javadoc comments?
-
+Nicholas: It explains what their respective classes and methods do without having to read through and trace the code, as well as give information on the history of the document, methods referenced, and the author. It's definitely effective because it clearly states what text is describing what, as well as standing out with a bright green color.
 
 ---
 # Lab 4: Style Guidelines

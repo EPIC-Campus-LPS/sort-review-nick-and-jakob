@@ -1,4 +1,17 @@
+/**
+ * Class of 4 different sorting algorithms
+ *
+ * @author Nicholas Un and Jakob Young
+ * @version 1.0, 9/15/23
+ * @see int[], array
+ *
+ */
 public class QuadSorts {
+    /**
+     * Sorts input array arr by comparing every element by every other element
+     * @param arr
+     * @return sorted arr
+     */
     public static int[] bubbleSort(int[] arr){
         int placeholder = 0;
         // for each element in the array (element1), for every element after element1, compare the two, and if the element after element1 is greater than it, then swap
@@ -13,6 +26,12 @@ public class QuadSorts {
         }
         return arr;
     }
+
+    /**
+     * Sorts input array arr by checking what the next unsorted index is and finding the smallest unsorted element to put in that index
+     * @param arr
+     * @return sorted arr
+     */
     public static int[] selectionSort(int[] arr){
         int placeholder, phIndex;
         // for each element in the array (element1), compare element1 to each other element, if that element is smaller than element1, set the placeholder to the element that comes next
@@ -28,6 +47,12 @@ public class QuadSorts {
         }
         return arr;
     }
+
+    /**
+     * Sorts input array arr by comparing how the next unsorted element compares to the already sorted elements
+     * @param arr
+     * @return sorted arr
+     */
     public static int[] insertionSort(int[] arr){
         int placeholder, counter;
         for(int i = 1; i < arr.length; i++){
@@ -47,6 +72,12 @@ public class QuadSorts {
         */
         return arr;
     }
+
+    /**
+     * Sorts input array arr by breaking arr into 1-length sub-arrays then sorting the arrays by merging them with the element order based on which of the next elements in said sub-arrays is smaller
+     * @param arr
+     * @return sorted arr
+     */
     public static int[] mergeSort(int[] arr){
         /*
         for(int i = 0; i < arr.length; i++){
