@@ -4,9 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c731394b-3b8b-4b3f-9959-7ab0a6255d3c" name="Changes" comment="Added JavaDoc comments and answered reflection questions for Nicholas">
-      <change afterPath="$PROJECT_DIR$/src/TimingTester.java" afterDir="false" />
+    <list default="true" id="c731394b-3b8b-4b3f-9959-7ab0a6255d3c" name="Changes" comment="Testing Time">
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/QuadSorts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/SortingTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/TimingTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/class-use/QuadSorts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/class-use/SortingTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/class-use/TimingTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/legal/COPYRIGHT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/script-dir/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/search-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javadoc HTMLS/type-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuadSorts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingTester.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TimingTester.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuadSorts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuadSorts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimingTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimingTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +80,26 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2VGO3Nz3r5WDEsk6ZyQ6VQ8OW66" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/nicholasu750_lpsk12/IdeaProjects/sort-review-nick-and-jakob/src"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nicholasu750_lpsk12\IdeaProjects\sort-review-nick-and-jakob\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,12 +125,22 @@
       <option name="project" value="LOCAL" />
       <updated>1695228618760</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Testing Time">
+      <option name="closed" value="true" />
+      <created>1695232896604</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695232896604</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Put all of the sort commands in" />
     <MESSAGE value="Added JavaDoc comments and answered reflection questions for Nicholas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added JavaDoc comments and answered reflection questions for Nicholas" />
+    <MESSAGE value="Testing Time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing Time" />
   </component>
 </project>

@@ -3,7 +3,6 @@
  *
  * @author Nicholas Un, Gabe Brown
  * @version 1.0, 9/20/23
- * @see int[], Math.random()
  */
 public class TimingTester {
     /**

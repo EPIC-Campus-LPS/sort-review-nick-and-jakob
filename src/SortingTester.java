@@ -1,5 +1,9 @@
-//Be sure to add your documentation here.
-
+/**
+ * Tests if each of the arrays returned by each of the QuadSorts is sorted correctly
+ *
+ * @author G. Ormes
+ * @version 1.0
+ */
 public class SortingTester {
 
     public static void main(String[] args) {
@@ -65,8 +69,7 @@ public class SortingTester {
 
 
     /**
-     * This function will determine whether the two passed arrays
-     * (one sorted & one not) have the same number of each number.
+     * This function will determine whether the two passed array (one sorted and one not) have the same number of each number.
      */
     public static boolean sameNumbers(int[] arr1, int[] arr2){
         //arr1 711 831 1 590 330 367 432 596 432 471

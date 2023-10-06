@@ -3,13 +3,12 @@
  *
  * @author Nicholas Un and Jakob Young
  * @version 1.0, 9/15/23
- * @see int[], array
  *
  */
 public class QuadSorts {
     /**
      * Sorts input array arr by comparing every element by every other element
-     * @param arr
+     * @param arr input random array
      * @return sorted arr
      */
     public static int[] bubbleSort(int[] arr){
@@ -29,7 +28,7 @@ public class QuadSorts {
 
     /**
      * Sorts input array arr by checking what the next unsorted index is and finding the smallest unsorted element to put in that index
-     * @param arr
+     * @param arr input random array
      * @return sorted arr
      */
     public static int[] selectionSort(int[] arr){
@@ -50,7 +49,7 @@ public class QuadSorts {
 
     /**
      * Sorts input array arr by comparing how the next unsorted element compares to the already sorted elements
-     * @param arr
+     * @param arr input random array
      * @return sorted arr
      */
     public static int[] insertionSort(int[] arr){
@@ -75,7 +74,7 @@ public class QuadSorts {
 
     /**
      * Sorts input array arr by breaking arr into 1-length sub-arrays then sorting the arrays by merging them with the element order based on which of the next elements in said sub-arrays is smaller
-     * @param arr
+     * @param arr input random array
      * @return sorted arr
      */
     public static int[] mergeSort(int[] arr){
